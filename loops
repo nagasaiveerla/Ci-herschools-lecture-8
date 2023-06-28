@@ -1,0 +1,55 @@
+public class Naga
+{
+    public static void main(String args[])
+    {
+        //for loop
+        int i;
+        for(i=1;i<=100;i++)
+        {
+            //System.out.println(i);
+        }
+        //here loop breaks so it won't invole in about statement so it prints 101 as output
+        System.out.println(i);
+        System.out.println("*******************");
+        for(i=0;i<100;i++)
+        {
+            System.out.println(i+1);
+        }
+        System.out.println("i is : " +i);
+
+        //while loop
+        /*while(int i=2){
+            System.out.println("i :" i);
+            i++;
+        }*/
+        int n=4;
+        while(n>0)
+        {
+            System.out.println("nagasai");
+            n--;
+        }
+         System.out.println("after while loop n is :"+ n);
+ 
+
+
+         // do while loop
+         //it runs atleast once the statement before condition
+        n=5;
+         do{
+            System.out.println(n);
+            n--;
+         }while(n>0);
+    
+    
+         n=0;
+         do{
+            System.out.println(n);
+            n--;
+         }while(n>0);
+         System.out.println("afer do while loop "+ n);
+       //older for loop :enhanced for loop  ->once we 're doing ' arrays
+    
+    
+    
+        }
+}
